@@ -44,18 +44,7 @@ gsap.from(".official-accounts .card", {
   scrollTrigger: ".official-accounts .card",
 });
 
-gsap.from(".developer-section h2", {
-  opacity: 0,
-  y: -50,
-  duration: 1,
-  scrollTrigger: ".developer-section h2",
-});
-gsap.from(".programmer-card", {
-  opacity: 0,
-  y: 50,
-  duration: 1,
-  scrollTrigger: ".programmer-card",
-});
+
 
 // Navigation Drawer Toggle
 const menuIcon = document.getElementById("menu-icon");
